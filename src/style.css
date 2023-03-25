@@ -12,21 +12,18 @@ body {
   position: relative;
 }
 .topIcon {
-  background-color: white;
   position: absolute;
   top: 1px;
   left: 20px;
   font-size: 90px;
 }
 .bottomIcon {
-  background-color: white;
   position: absolute;
   bottom: 1px;
   right: 20px;
   font-size: 90px;
 }
 .numberCard {
-  background-color: white;
   display: flex;
   justify-content: center;
   margin: auto;
