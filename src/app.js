@@ -19,7 +19,9 @@ window.onload = () => {
 let generadorRandomCards = () => {
   let suit = ["♦", "♥", "♠", "♣"];
   let indexSuit = Math.floor(Math.random() * suit.length);
-  return suit[indexSuit];
+  let color =
+    suit[indexSuit] === "♦" || suit[indexSuit] === "♥" ? "color: red;" : "";
+  return `<span style="${color}">${suit[indexSuit]}</span>`;
 };
 
 //Funcion para generar los numeros random
